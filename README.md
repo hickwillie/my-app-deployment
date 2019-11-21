@@ -1,9 +1,10 @@
 # Hands-On
 
-### 1. Install Kustomize
+### 1. Install Kustomize (windows)
 
 ```
-brew install kustomize
+choco install kubectl-cli
+choco install kustomize
 kustomize version
 ```
 
@@ -16,8 +17,8 @@ kustomize version
 
 In your terminal:
 
-```bash
-export username=... ;# your Github username in lowercase
+```powershell
+Set-Item -Path Env:username -value=... # your Github username in lowercase
 git clone git@github.com:${username}/my-app-deployment.git
 cd my-app-deployment
 ```
