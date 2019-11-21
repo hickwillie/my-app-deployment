@@ -3,7 +3,7 @@
 ### 1. Install Kustomize (windows)
 
 ```
-choco install kubectl-cli
+choco install kubernetes-cli
 choco install kustomize
 kustomize version
 ```
